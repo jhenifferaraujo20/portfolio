@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jheniffer Araujo</title>
 
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/8ae2a7fd5c.js" crossorigin="anonymous"></script>
+
     <link rel="stylesheet" href="css/styles.css">
 </head>
 
@@ -13,40 +16,108 @@
     <header>
         <nav class="menu">
             <ul>
-                <li><a href="#">Sobre</a></li>
+                <li><a href="#sobre">Sobre</a></li>
                 <li><a href="#portfolio">Portfólio</a></li>
-                <li><a href="#">Contato</a></li>
+                <li><a href="#contato">Contato</a></li>
             </ul>
         </nav>
-        <h1 class="site-titulo">Jheniffer Araujo</h1>
-        <h2 class="site-subtitulo">Jr. frontend developer</h2>
+        <div class="titulo">
+            <h1 class="site-titulo">Jheniffer Araujo</h1>
+            <h2 class="site-subtitulo">Jr. frontend developer</h2>
+        </div>
     </header>
 
-    <section id="portfolio" class="portfolio">
-        <h3>Portifólio</h3>
+    <section class="sobre container" id="sobre">
+        <h2>Sobre</h2>
+        <figure class="avatar">
+            <img src="images/sobre-img.jpg" alt="">
+        </figure>
+        <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere iure adipisci harum ducimus accusantium,
+            repudiandae aperiam voluptatum, id ex ratione omnis reiciendis possimus officiis.
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi vitae, tenetur quidem eum aliquid vel
+            labore sint placeat ad deserunt consectetur fugit ullam. Eius unde neque ducimus obcaecati ipsum quos vero
+            totam recusandae hic expedita nemo sit, illum harum. Quisquam impedit ullam itaque facere et ad molestiae
+            quod reprehenderit excepturi!
+        </p>
+        <p>Este site foi criado durante as aulas do <a href="https://sp.senac.br/americana">Curso Técnico em Informática
+                do Senac Americana</a></p>
+    </section>
+
+    <section id="portfolio" class="portfolio container">
+        <h2>Portifólio</h2>
 
         <div class="grid">
-            <figure>
-                <img src="images/projeto-integrador.png" alt="E-commerce" class="img-portfolio">
-                <figcaption>Loja virtual</figcaption>
-            </figure>
 
-            <figure>
-                <img src="images/dashboard.png" alt="Dashboard" class="img-portfolio">
-                <figcaption>Dashboard</figcaption>
-            </figure>
+            <div class="flip-card">
+                <div class="card">
+                    <figure class="card-front">
+                        <img src="images/projeto-integrador.png" alt="E-commerce" class="img-portfolio">
+                    </figure>
+                    <div class="card-back">
+                        <h3>E-commerce</h3>
+                    </div>
+                </div>
+            </div>
 
-            <figure>
-                <img src="images/projeto-integrador.png" alt="Webdesign" class="img-portfolio">
-                <figcaption>Webdesign</figcaption>
-            </figure>
+            <div class="flip-card">
+                <div class="card">
+                    <figure class="card-front">
+                        <img src="images/dashboard.png" alt="Dashboard" class="img-portfolio">
+                    </figure>
+                    <div class="card-back">
+                        <h3>Dashboard</h3>
+                    </div>
+                </div>
+            </div>
 
-            <figure>
-                <img src="images/dashboard.png" alt="projetos" class="img-portfolio">
-                <figcaption>Projetos</figcaption>
-            </figure>
+            <div class="flip-card">
+                <div class="card">
+                    <figure class="card-front">
+                        <img src="images/fashion-website.png" alt="Fashion website" class="img-portfolio">
+                    </figure>
+                    <div class="card-back">
+                        <h3>Fashion Website</h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flip-card">
+                <div class="card">
+                    <figure class="card-front">
+                        <img src="images/dashboard.png" alt="projetos" class="img-portfolio">
+                    </figure>
+                    <div class="card-back">
+                        <h3>Dashboard</h3>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </section>
+
+    <div id="contato" class="contato container">
+        <h2>Contato</h2>
+        <div class="grid icones">
+            <a href="https://www.facebook.com/jheniffer.araujo.5680" target="a_blank">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+
+            <a href="https://www.instagram.com/jheniffer2776/" target="a_blank">
+                <i class="fab fa-instagram"></i>
+            </a>
+
+            <a href="https://www.linkedin.com/in/jheniffer-araujo-baldi/" target="a_blank">
+                <i class="fab fa-linkedin-in"></i>
+            </a>
+
+            <a href="https://github.com/jhenifferaraujo20" target="a_blank">
+                <i class="fab fa-github"></i>
+            </a>
+        </div>
+    </div>
 
 </body>
 
